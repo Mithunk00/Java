@@ -1,0 +1,9 @@
+Public class prac 4{ 
+Public static void main(String[] args) { 
+Int x=0,sum=0; 
+Do{ 
+Sum=sum+x; 
+X=x+2; 
+}while(x<=20); 
+System.out.println(“Sum of first 10 even numbers is “+sum); } 
+} 
