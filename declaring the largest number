@@ -1,0 +1,25 @@
+Import 
+Java.util.Scanner; 
+Public class prac3 { 
+Public static void main(String[] args) { 
+Int a ,b ,c ; 
+Scanner reader = new Scanner(System.in); 
+System.out.println(“ Enter three integer numbers “); 
+A = reader.nextInt(); 
+B = reader.nextInt(); 
+C = reader.nextInt(); 
+If(a > b && a > c) 
+{ 
+System.out.println(“a is greatest “+a); 
+} 
+Else if(b > a && b > c) 
+{ 
+System.out.println(“b is greatest “ + b); 
+} 
+Else if(c > a && c > b) 
+{ 
+System.out.println(“c is greatest “ + c); 
+} 
+Reader.close(); 
+} 
+} 
