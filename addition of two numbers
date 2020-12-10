@@ -1,0 +1,16 @@
+Import java.util.Scanner; 
+Class AddNumbers 
+{ 
+ Public static void main(String args[]) 
+ { 
+ Int x, y, z; 
+ System.out.println(“Enter two integers to calculate their sum”); 
+ Scanner in = new Scanner(System.in); 
+  
+ X = in.nextInt(); 
+ Y = in.nextInt(); 
+ Z = x + y; 
+  
+ System.out.println(“Sum of the integers = “ + z); 
+ } 
+} 
