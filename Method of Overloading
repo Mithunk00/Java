@@ -1,0 +1,25 @@
+Public class prac11 { 
+Double result ; 
+Double areac(int a) 
+{ 
+Result = 3.14* a * a ; 
+Return result;
+} 
+Double areac(int a , int b) 
+{ 
+Result = a * b; 
+Return result; 
+} 
+Double areac(int a , int b , int c) 
+{ 
+Result = a *b *c; 
+Return result; 
+} 
+Public static void main(String[] args) { Prac11 obj = new prac11(); 
+Double a , b , c; 
+A=obj.areac(5); 
+System.out.println(“area of circle is “ + a); B=obj.areac(6,3); 
+System.out.println(“area of rectangle is “+b); C= obj.areac(4,5,7); 
+System.out.println(“volume of cuboid is “+ c); 
+} 
+} 
